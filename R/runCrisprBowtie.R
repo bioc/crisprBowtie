@@ -84,7 +84,7 @@
 #' @author Jean-Philippe Fortin
 #' 
 #' @export
-#' @importFrom GenomeInfoDb seqlengths seqnames
+#' @importFrom Seqinfo seqlengths seqnames
 #' @importFrom BSgenome getSeq
 #' @importFrom crisprBase extractPamFromTarget
 #' @importFrom crisprBase extractProtospacerFromTarget

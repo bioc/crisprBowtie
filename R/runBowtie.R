@@ -243,7 +243,7 @@ runBowtie <- function(sequences,
 
 
 #' @importFrom BSgenome getSeq
-#' @importFrom GenomeInfoDb seqlevels
+#' @importFrom Seqinfo seqlevels
 .getDNATargetFromBSgenome <- function(results, bsgenome){
 
     validSeqLevels <- seqlevels(bsgenome)
